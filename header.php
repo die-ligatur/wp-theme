@@ -13,10 +13,10 @@
 
         <div class="logo">
             <div class="logo__img">
-                <img src="#" alt="Die Ligatur">
+				<?php the_custom_logo() ?>
             </div>
             <div class="logo__text">
-                Die Ligatur
+                <?= get_bloginfo( 'name' ) ?>
             </div>
         </div>
 
